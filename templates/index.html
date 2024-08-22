@@ -1,0 +1,17 @@
+{% load static %}
+
+{% block content %}
+    <center><img src="{% static 'images/icon_me.png' %}"></center>
+    <br><br>
+    <center><video width="600px" height="600px" controls>
+        <source src="{% static 'video/sinfdosh.mp4' %}">
+    </video></center>
+<style>
+    img{
+        margin-top:20px;
+        width:200px;
+        height:200px;
+
+    }
+</style>
+{% endblock content %}
